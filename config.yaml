@@ -1,0 +1,33 @@
+project:
+  name: "OpenStory++ Mini Storytelling Evaluation"
+  description: "Lightweight narrative evaluation pipeline using 20 samples for BLEU analysis and prediction demonstration."
+
+dataset:
+  name: "MAPLE-WestLake-AIGC/OpenstoryPlusPlus"
+  split: "train"
+  max_samples: 20          # Limit for memory-safe loading
+  visualisation_samples: 3 # Number of images plotted
+
+model:
+  type: "baseline_dummy"
+  training_enabled: false  # Full training disabled due to hardware constraints
+  device: "auto"           # auto detects CUDA or CPU
+
+evaluation:
+  metric: "BLEU"
+  method: "heuristic_first_word"
+  prediction_strategy: "token_fake_prediction"
+  save_outputs: true
+
+output:
+  directory: "results"
+  files:
+    - "full_results_table.csv"
+    - "bleu_chart.png"
+    - "sample_visualization.png"
+    - "sample_prediction.txt"
+
+logging:
+  enabled: true
+  print_sample_outputs: true
+  save_summary: true
