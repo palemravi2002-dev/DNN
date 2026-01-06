@@ -1,0 +1,22 @@
+Sample,Caption,BLEU Score
+1,person0 and person1 is working on a wooden table,0.0
+2,person2 and person3 and person4 using a circular saw to cut wood,0.0
+3,man0 and man1 is working on a wooden table,0.0
+4,person5 and person6 and person7 is working on a wooden table,0.0
+5,person8 and person9 is holding a piece of wood and hammering it,0.0
+6,a man donning mask0 and mask1 and goggles0 and goggles1 is snapping a photo,0.0
+7,a man is operating a wood planer0 and planer1,0.0
+8,person0 and person1 is wielding a circular saw to split wood,0.0
+9,a man is crafting a wooden table,0.0
+10,a man is operating a table saw,0.0
+11,a man is working on a wooden table .,0.0
+12,a man is working on a table with nail0 and nail1 and nail2 and nail3 gun0 and gun1,0.0
+13,a man is cutting a piece of wood in a room .,0.0
+14,a man using a drill to make a table .,0.0
+15,a man is using a drill to make a table .,0.0
+16,a man is working on a wooden table with sander0 and sander1,0.0
+17,a man is working on a wooden table with brush0 and brush1 and brush2 and brush3,0.0
+18,a man is working on a wooden desk with a stain,0.0
+19,a man is working on a table in a garage with sander2,0.0
+20,a man is working on table0 and table1 saw with brush4,0.0
+Average,�,0.0

@@ -1,0 +1,9 @@
+Context captions:
+ - person0 and person1 is working on a wooden table
+ - person2 and person3 and person4 using a circular saw to cut wood
+
+Ground Truth:
+ - man0 and man1 is working on a wooden table
+
+Predicted:
+ - token_fake_prediction
