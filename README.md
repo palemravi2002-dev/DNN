@@ -1,11 +1,11 @@
 # DNN
 OpenStory++ Mini Storytelling Evaluation Project
 
-Author: Your Name Here
+Author: Palem Ravi
 
 Introduction and Problem Statement
 
-This repository contains the final assessment project for a storytelling inference and evaluation task using the OpenStoryPlusPlus dataset from MAPLE-WestLake-AIGC. The objective of this project is to design a lightweight storytelling evaluation pipeline under restricted computational resources.
+This repository contains the final assessment project for a storytelling inference and evaluation task using the OpenStory++ dataset from MAPLE-WestLake-AIGC. The objective of this project is to design a lightweight storytelling evaluation pipeline under restricted computational resources.
 
 The core focus is visual–text storytelling, where a model must interpret image–caption pairs and assess the quality of generated narrative descriptions. Due to hardware limitations, the project is intentionally constrained to a small experimental setup while still demonstrating dataset handling, evaluation methodology, and reasoning analysis.
 
@@ -32,7 +32,7 @@ results/sample_visualization.png
 
 Dataset Description
 
-We use the OpenStoryPlusPlus dataset:
+We use the OpenStory++ dataset:
 
 Source: https://huggingface.co/datasets/MAPLE-WestLake-AIGC/OpenstoryPlusPlus
 
@@ -84,6 +84,13 @@ Potential extensions include:
 scaling to larger sample sizes
 
 incorporating real generative models
+
+testing additional evaluation metrics
+
+analysing cross-modal reasoning depth
+
+benchmarking alternative datasets
+
 
 testing additional evaluation metrics
 
